@@ -1,0 +1,61 @@
+.main-container {
+    max-width: 1200px;
+    margin: auto;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+
+.default {
+  color: black;
+}
+
+.single-line {
+  display: flex;
+  * {
+    margin-left: 10px;
+  }
+}
+
+.center-right {
+    text-align: right;
+}
+
+.center-left {
+    text-align: left;
+}
+
+.fake-link {
+  color: $linkColor;
+  cursor: pointer;
+}
+
+.error {
+  color: $redColor;
+}
+
+.success {
+  color: $greenColor;
+}
+
+.big-button {
+  font-size: 2rem;
+  padding: 1rem 2rem;
+}
+
+.margin-top {
+  margin-top: 15px;
+}
+.margin-right {
+  margin-right: 10px;
+}
+
+// Bit of a weird hack since the child is generated automatically from react
+.bold-child-text {
+  :first-child {
+    font-weight: bold !important;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

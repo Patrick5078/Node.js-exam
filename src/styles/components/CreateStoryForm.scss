@@ -1,0 +1,26 @@
+#tagGroup {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#name {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#description {
+  width: 400px;
+}
+
+#realUploadButton {
+  display: none;
+}
+
+#upload-button {
+  padding: 5px;
+}
+
+#createStoryButton {
+  padding: 15px;
+  font-size: 20px;
+}

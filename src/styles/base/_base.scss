@@ -1,0 +1,29 @@
+html {
+  background-color: $lightGreyColor;
+}
+
+a {
+  text-decoration: none;
+  color: $linkColor;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  background-color: $redColor;
+  color: white;
+  cursor: pointer;
+  border: 0rem;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}
